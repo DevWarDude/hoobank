@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="mt-16 lg:mt-20 font-poppins text-white ">
       <div className="flex   flex-col gap-7 lg:flex-row " id="home">
-        <div className="px-12 sm:flex sm:mr-24 flex-col items-start lg:mr-0 pl-24">
+        <div className="px-12 sm:flex sm:mr-24 flex-col items-start lg:mr-0 pl-10">
           <div className="bg rounded-lg shadow-xl items-center justify-center  gap-3 px-3 flex ">
             <svg
               width="32"

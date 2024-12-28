@@ -83,7 +83,8 @@ body {
 }
 
 .trans {
-  transform: translateX(-450px);
+  opacity: 0;
+  /* transform: translateX(-450px); */
   /* height: 100vh; */
   /* transition: transform 0.4s: */
 }

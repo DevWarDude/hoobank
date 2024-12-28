@@ -70,7 +70,7 @@ function Footer() {
       <div className="mt-16 flex flex-col justify-center gap-7 sm:mb-8 lg:px-20">
         <div className="h-[1px] mx-8 lg:mx-0 sm:opacity-15 opacity-40  bg-white"></div>
         <div className="lg:flex lg:justify-between">
-          <span className="text-center lg:px-0 px-10 font-medium opacity-60 sm:text-xl sm:opacity-70">
+          <span className="text-center lg:px-0 px-10 font-medium opacity-60 sm:text-xl sm:opacity-70 mb-4 block">
             Copyright 2021 HooBank All Rights Reserved
           </span>
           <div className="flex justify-center gap-8 sm:mt-1">
