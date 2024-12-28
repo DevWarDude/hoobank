@@ -36,7 +36,7 @@ function Home() {
             </span>{" "}
             Payment Method
           </div>
-          <span className="opacity-75 text-sm mt-6  block leading-6 sm:text-lg sm:leading-8 lg:opacity-85 lg:text-xl lg:leading-9">
+          <span className="opacity-75 text-sm mt-6  block leading-6 sm:text-lg sm:leading-8 lg:opacity-85 lg:text-xl lg:leading-9 ">
             Our team of experts uses a methodology to identify the credit cards
             most likely to fit your needs. We examine annual percentage rates,
             annual fees.
@@ -74,15 +74,15 @@ function Home() {
           </span>
         </div>
       </div>
-      <div className="lg:grid grid-cols-2 lg:items-start lg:mx-24 lg:mt-24">
+      <div className="lg:grid grid-cols-2 lg:items-start hidden lg:mx-24 lg:mt-24">
         <div className="flex flex-col justify-center mt-28 items-center px-8 lg:px-0 lg:mt-0 lg:items-start">
           <div className="text-center font-extrabold tracking-wider text-xl leading-8 sm:text-4xl sm:leading-[60px] lg:text-start lg:text-3xl lg:leading-[65px]">
             You do the business, we'll handle the money.
           </div>
-          <span className="opacity-85 text-sm text-center leading-7 mt-7 sm:leading-8 sm:text-lg lg:text-start lg:mt-3">
+          <span className="opacity-85 text-sm text-center leading-7 mt-7 sm:leading-8 sm:text-lg lg:text-start lg:mt-3 block">
             With the right credit card, you can improve your financial life by
             building credit, earning rewards and saving money, but with hundreds
-            of credit cards on the markets.{" "}
+            of credit cards on the markets.
           </span>
           <Button>Get Started</Button>
         </div>
@@ -374,11 +374,11 @@ function Home() {
       </div>
       <div className="p-8 mt-24 lg:mt-8 lg:p-0" id="feature">
         <div className="flex item flex-col g:flex lg:p-0 items-center justify-center lg:mx-24 lg:gap-10 lg:flex-row">
-          <div className="lg:flex lg:flex-col lg:items-start">
+          <div className=" lg:items-start flex flex-col justify-center items-center">
             <div className="text-center font-extrabold tracking-wider text-xl leading-8 sm:text-4xl sm:leading-[60px] lg:text-start lg:text-3xl lg:leading-[60px]">
               You do the business, we'll handle the money.
             </div>
-            <span className="opacity-75 text-sm text-center leading-7 mt-4 sm:leading-8 sm:text-lg lg:text-start">
+            <span className="opacity-75 text-sm text-center leading-7 mt-4 sm:leading-8 sm:text-lg lg:text-start block">
               With the right credit card, you can improve your financial life by
               building credit, earning rewards and saving money, but with
               hundreds of credit cards on the markets.{" "}
