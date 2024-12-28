@@ -43,7 +43,7 @@ function Home() {
           </span>
         </div>
         <div className="ml-12">
-          <img src="src/assets/robot.b3924d6a4b8b19ef9de9.png" alt="" />
+          <img src="./robot.b3924d6a4b8b19ef9de9.png" alt="" />
         </div>
       </div>
       <div className="flex flex-col sm:flex-wrap sm:flex-row sm:gap-7 m-14 items-center gap-10 justify-center">
@@ -157,11 +157,7 @@ function Home() {
         </div>
       </div>
       <div className="px-8 sm:px-10 lg:flex lg:p-0 items-center justify-center lg:mx-24 lg:gap-10">
-        <img
-          src="src/assets/bill.042c4c8c3a77ddd977e0.png"
-          className="w-[50%]"
-          alt=""
-        />
+        <img src="./bill.042c4c8c3a77ddd977e0.png" className="w-[50%]" alt="" />
         <div className="flex flex-col ">
           {" "}
           <div className="text-center font-extrabold tracking-wider mt-6 text-xl leading-8 sm:text-4xl sm:leading-[60px] lg:text-3xl lg:text-start lg:leading-[65px]">
@@ -392,7 +388,7 @@ function Home() {
 
           <img
             className="mt-8 sm:px-14 lg:w-[55%]"
-            src="src/assets/card.a2e9df80e8b4106cace9.png"
+            src="./card.a2e9df80e8b4106cace9.png"
             alt=""
           />
         </div>

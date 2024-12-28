@@ -31,7 +31,7 @@ const Carousel = (prop) => {
           <div className="flex mt-6  items-center gap-5">
             <img
               alt=""
-              src="src/assets/people01.a40f2b61208976a6d644.png"
+              src="./people01.a40f2b61208976a6d644.png"
               className="w-[50px] h-[50px] rounded-full"
             />
             <div className="">
@@ -50,7 +50,7 @@ const Carousel = (prop) => {
           </span>
           <div className="flex mt-6 items-center gap-5">
             <img
-              src="src/assets/people02.bba1091ac468e1439956.png"
+              src="./people02.bba1091ac468e1439956.png"
               alt=""
               className="w-[50px] h-[50px] rounded-full"
             />
@@ -70,7 +70,7 @@ const Carousel = (prop) => {
           </span>
           <div className="flex mt-6 items-center gap-5">
             <img
-              src="src/assets/download (4).png"
+              src="./download (4).png"
               alt=""
               className="w-[50px] h-[50px] rounded-full"
             />

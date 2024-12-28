@@ -19,22 +19,22 @@ function About() {
         <Carousel />
         <div className="flex flex-col gap-14 lg:justify-between sm:gap-7 justify-center items-center mt-24 sm:flex-wrap sm:flex-row lg:px-0 l">
           <img
-            src="src/assets/download.png"
+            src="./download.png"
             className="w-[130px] sm:w-[150px] lg:w-[200px]"
             alt=""
           />
           <img
-            src="src/assets/download (1).png"
+            src="./download (1).png"
             alt=""
             className="w-[130px] sm:w-[150px] lg:w-[200px]"
           />
           <img
-            src="src/assets/download (2).png"
+            src="./download (2).png"
             alt=""
             className="w-[130px] sm:w-[150px] lg:w-[200px]"
           />
           <img
-            src="src/assets/download (3).png"
+            src="./download (3).png"
             alt=""
             className="w-[130px] sm:w-[150px] lg:w-[200px]"
           />
