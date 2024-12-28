@@ -372,7 +372,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="p-8 mt-24 lg:mt-8 lg:p-0" id="feature">
+      <div className="p-8 mt-16 lg:mt-8 lg:p-0" id="feature">
         <div className="flex item flex-col g:flex lg:p-0 items-center justify-center lg:mx-24 lg:gap-10 lg:flex-row">
           <div className=" lg:items-start flex flex-col justify-center items-center">
             <div className="text-center font-extrabold tracking-wider text-xl leading-8 sm:text-4xl sm:leading-[60px] lg:text-start lg:text-3xl lg:leading-[60px]">
