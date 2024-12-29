@@ -3,9 +3,12 @@ import Button from "./Button";
 function Home() {
   return (
     <div className="mt-16 lg:mt-20 font-poppins text-white ">
-      <div className="flex   flex-col gap-7 lg:flex-row " id="home">
-        <div className="px-12 sm:flex sm:mr-24 flex-col items-start lg:mr-0 pl-10">
-          <div className="bg rounded-lg shadow-xl items-center justify-center  gap-3 px-3 flex ">
+      <div
+        className="flex flex-col gap-7 lg:flex-row md:flex-row items-center"
+        id="home"
+      >
+        <div className="px-12 sm:flex sm:mr-24 md:mr-0 flex-col items-start lg:mr-0 pl-10 ">
+          <div className="bg rounded-lg shadow-xl items-center justify-center gap-3 px-3 flex">
             <svg
               width="32"
               height="32"
@@ -42,7 +45,7 @@ function Home() {
             annual fees.
           </span>
         </div>
-        <div className="ml-12">
+        <div className="ml-12 md:ml-0 md:w-[100%] lg:w-[75%]">
           <img src="./robot.b3924d6a4b8b19ef9de9.png" alt="" />
         </div>
       </div>
@@ -74,7 +77,7 @@ function Home() {
           </span>
         </div>
       </div>
-      <div className="lg:grid grid-cols-2 lg:items-start hidden lg:mx-24 lg:mt-24">
+      <div className="lg:grid grid-cols-2 lg:items-start lg:mx-24 lg:mt-24 flex flex-col">
         <div className="flex flex-col justify-center mt-28 items-center px-8 lg:px-0 lg:mt-0 lg:items-start">
           <div className="text-center font-extrabold tracking-wider text-xl leading-8 sm:text-4xl sm:leading-[60px] lg:text-start lg:text-3xl lg:leading-[65px]">
             You do the business, we'll handle the money.
@@ -86,8 +89,8 @@ function Home() {
           </span>
           <Button>Get Started</Button>
         </div>
-        <div className="flex flex-col p-10 mt-10 lg:py-0 lg:mt-0 sm:gap-5 gap-14 sm:px-14 lg:gap-2 lg:px-0">
-          <div className="flex items-center hover:bg-slate-900 gap-7 sm:px-6 sm:py-10 lg:py-6 lg:pb-10 sm:rounded-3xl hover:shadow-xl duration-300 cursor-pointer lg:px-8">
+        <div className="flex flex-col p-10 mt-10 lg:py-0 lg:mt-0 sm:gap-5 gap-2 sm:px-14 lg:gap-2 lg:px-0">
+          <div className="flex items-center hover:bg-slate-900 gap-7 sm:px-6 sm:py-10 lg:py-6 lg:pb-10 rounded-3xl hover:shadow-xl duration-300 cursor-pointer lg:px-8 py-6 px-5">
             <svg
               className="w-[100px] lg:w-[50px]"
               viewBox="0 0 33 32"
@@ -107,7 +110,7 @@ function Home() {
               </span>
             </div>
           </div>
-          <div className="flex items-center gap-7 hover:bg-slate-900 sm:px-6 sm:py-10 sm:rounded-3xl hover:shadow-xl duration-300 cursor-pointer lg:py-6 lg:pb-10 lg:px-8">
+          <div className="flex items-center gap-7 hover:bg-slate-900 sm:px-6 sm:py-10 rounded-3xl hover:shadow-xl duration-300 cursor-pointer py-6 px-5 lg:py-6 lg:pb-10 lg:px-8">
             <svg
               className="w-[100px] lg:w-[50px]"
               viewBox="0 0 28 32"
@@ -131,7 +134,7 @@ function Home() {
               </span>
             </div>
           </div>
-          <div className="flex items-center gap-7 hover:bg-slate-900 sm:px-6 sm:py-10 sm:rounded-3xl hover:shadow-xl duration-300 cursor-pointer lg:py-6 lg:pb-10 lg:px-8">
+          <div className="flex items-center gap-7 hover:bg-slate-900 sm:px-6 sm:py-10 rounded-3xl hover:shadow-xl duration-300 cursor-pointer py-6 px-5 lg:py-6 lg:pb-10 lg:px-8">
             <svg
               className="w-[100px] lg:w-[50px]"
               viewBox="0 0 33 32"
@@ -156,8 +159,12 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="px-8 sm:px-10 lg:flex lg:p-0 items-center justify-center lg:mx-24 lg:gap-10">
-        <img src="./bill.042c4c8c3a77ddd977e0.png" className="w-[50%]" alt="" />
+      <div className="px-8 flex flex-col lg:flex-row sm:px-10 lg:flex lg:p-0 items-center justify-center lg:mx-24 lg:gap-10">
+        <img
+          src="./bill.042c4c8c3a77ddd977e0.png"
+          className="w-[100%] sm:w-[70%] lg:w-[50%]"
+          alt=""
+        />
         <div className="flex flex-col ">
           {" "}
           <div className="text-center font-extrabold tracking-wider mt-6 text-xl leading-8 sm:text-4xl sm:leading-[60px] lg:text-3xl lg:text-start lg:leading-[65px]">
@@ -381,7 +388,7 @@ function Home() {
             <span className="opacity-75 text-sm text-center leading-7 mt-4 sm:leading-8 sm:text-lg lg:text-start block">
               With the right credit card, you can improve your financial life by
               building credit, earning rewards and saving money, but with
-              hundreds of credit cards on the markets.{" "}
+              hundreds of credit cards on the markets.
             </span>
             <Button>Get Started</Button>
           </div>
