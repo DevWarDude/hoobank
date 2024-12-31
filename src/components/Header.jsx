@@ -115,8 +115,8 @@ function Header() {
       </div>
 
       <div
-        className={`flex transition-all  duration-300 py-8 flex-col z-0 absolute right-7 items-center mt-6 w-[140px] bg rounded-2xl shadow-xl lg:hidden
-        ${!showMenu && "trans"}`}
+        className={`flex transition-all  duration-300 py-8 flex-col z-0 absolute right-7 items-center mt-6 w-[140px] bg rounded-2xl shadow-xl  lg:hidden
+        ${!showMenu && "trans"} ${showMenu && "z-[90]"}`}
       >
         <ul className={`flex flex-col text-neutral-300 gap-4 items-start `}>
           <li

@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function Home() {
   return (
-    <div className="mt-16 lg:mt-20 font-poppins text-white ">
+    <div className="mt-16 lg:mt-20 font-poppins text-white  relative z-[20]">
       <div
         className="flex flex-col gap-7 lg:flex-row md:flex-row items-center"
         id="home"
