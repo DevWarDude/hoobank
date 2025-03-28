@@ -1,9 +1,9 @@
-import { Suspense } from "react";
-import About from "./About";
-import Footer from "./Footer";
-import Header from "./Header";
-import Home from "./Home";
-import Loading from "./Loading";
+import { Suspense, lazy } from "react";
+const About = lazy(() => import("./About"));
+const Footer = lazy(() => import("./Footer"));
+const Header = lazy(() => import("./Header"));
+const Home = lazy(() => import("./Home"));
+const Loading = lazy(() => import("./Loading"));
 
 function App() {
   return (
