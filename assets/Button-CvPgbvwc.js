@@ -1,0 +1,1 @@
+import{j as n}from"./index-Bc4WZaL9.js";function r(t){return n.jsx("button",{className:` text-black font-bold rounded-md mt-6 bg-gradient-to-b from-cyan-200 p-3 px-5  to-cyan-500 outline-none sm:px-7 sm:text-xl sm:py-4 tracking-wide sm:tracking-wider ${t.className} w-fit`,children:t.children?t.children:"Get Started"})}export{r as B};
